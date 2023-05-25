@@ -961,3 +961,8 @@ t.test(dep_adm_3, mu = dep_center, alternative = "two.sided")
     ## sample estimates:
     ## mean of x 
     ##  12.18182
+
+> Nota: tambien se puede hacer que un modelo de regresion (uno mas
+> complejo), se comporte como una prueba t para muestras dependientes,
+> pero con más pasos (ver:
+> <https://stats.stackexchange.com/questions/352285/paired-data-comparison-regression-or-paired-t-test/352478#352478>)
