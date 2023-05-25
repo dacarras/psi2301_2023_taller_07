@@ -1,0 +1,1612 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style type="text/css">
+@font-face {
+font-family: octicons-link;
+src: url(data:font/woff;charset=utf-8;base64,d09GRgABAAAAAAZwABAAAAAACFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEU0lHAAAGaAAAAAgAAAAIAAAAAUdTVUIAAAZcAAAACgAAAAoAAQAAT1MvMgAAAyQAAABJAAAAYFYEU3RjbWFwAAADcAAAAEUAAACAAJThvmN2dCAAAATkAAAABAAAAAQAAAAAZnBnbQAAA7gAAACyAAABCUM+8IhnYXNwAAAGTAAAABAAAAAQABoAI2dseWYAAAFsAAABPAAAAZwcEq9taGVhZAAAAsgAAAA0AAAANgh4a91oaGVhAAADCAAAABoAAAAkCA8DRGhtdHgAAAL8AAAADAAAAAwGAACfbG9jYQAAAsAAAAAIAAAACABiATBtYXhwAAACqAAAABgAAAAgAA8ASm5hbWUAAAToAAABQgAAAlXu73sOcG9zdAAABiwAAAAeAAAAME3QpOBwcmVwAAAEbAAAAHYAAAB/aFGpk3jaTY6xa8JAGMW/O62BDi0tJLYQincXEypYIiGJjSgHniQ6umTsUEyLm5BV6NDBP8Tpts6F0v+k/0an2i+itHDw3v2+9+DBKTzsJNnWJNTgHEy4BgG3EMI9DCEDOGEXzDADU5hBKMIgNPZqoD3SilVaXZCER3/I7AtxEJLtzzuZfI+VVkprxTlXShWKb3TBecG11rwoNlmmn1P2WYcJczl32etSpKnziC7lQyWe1smVPy/Lt7Kc+0vWY/gAgIIEqAN9we0pwKXreiMasxvabDQMM4riO+qxM2ogwDGOZTXxwxDiycQIcoYFBLj5K3EIaSctAq2kTYiw+ymhce7vwM9jSqO8JyVd5RH9gyTt2+J/yUmYlIR0s04n6+7Vm1ozezUeLEaUjhaDSuXHwVRgvLJn1tQ7xiuVv/ocTRF42mNgZGBgYGbwZOBiAAFGJBIMAAizAFoAAABiAGIAznjaY2BkYGAA4in8zwXi+W2+MjCzMIDApSwvXzC97Z4Ig8N/BxYGZgcgl52BCSQKAA3jCV8CAABfAAAAAAQAAEB42mNgZGBg4f3vACQZQABIMjKgAmYAKEgBXgAAeNpjYGY6wTiBgZWBg2kmUxoDA4MPhGZMYzBi1AHygVLYQUCaawqDA4PChxhmh/8ODDEsvAwHgMKMIDnGL0x7gJQCAwMAJd4MFwAAAHjaY2BgYGaA4DAGRgYQkAHyGMF8NgYrIM3JIAGVYYDT+AEjAwuDFpBmA9KMDEwMCh9i/v8H8sH0/4dQc1iAmAkALaUKLgAAAHjaTY9LDsIgEIbtgqHUPpDi3gPoBVyRTmTddOmqTXThEXqrob2gQ1FjwpDvfwCBdmdXC5AVKFu3e5MfNFJ29KTQT48Ob9/lqYwOGZxeUelN2U2R6+cArgtCJpauW7UQBqnFkUsjAY/kOU1cP+DAgvxwn1chZDwUbd6CFimGXwzwF6tPbFIcjEl+vvmM/byA48e6tWrKArm4ZJlCbdsrxksL1AwWn/yBSJKpYbq8AXaaTb8AAHja28jAwOC00ZrBeQNDQOWO//sdBBgYGRiYWYAEELEwMTE4uzo5Zzo5b2BxdnFOcALxNjA6b2ByTswC8jYwg0VlNuoCTWAMqNzMzsoK1rEhNqByEyerg5PMJlYuVueETKcd/89uBpnpvIEVomeHLoMsAAe1Id4AAAAAAAB42oWQT07CQBTGv0JBhagk7HQzKxca2sJCE1hDt4QF+9JOS0nbaaYDCQfwCJ7Au3AHj+LO13FMmm6cl7785vven0kBjHCBhfpYuNa5Ph1c0e2Xu3jEvWG7UdPDLZ4N92nOm+EBXuAbHmIMSRMs+4aUEd4Nd3CHD8NdvOLTsA2GL8M9PODbcL+hD7C1xoaHeLJSEao0FEW14ckxC+TU8TxvsY6X0eLPmRhry2WVioLpkrbp84LLQPGI7c6sOiUzpWIWS5GzlSgUzzLBSikOPFTOXqly7rqx0Z1Q5BAIoZBSFihQYQOOBEdkCOgXTOHA07HAGjGWiIjaPZNW13/+lm6S9FT7rLHFJ6fQbkATOG1j2OFMucKJJsxIVfQORl+9Jyda6Sl1dUYhSCm1dyClfoeDve4qMYdLEbfqHf3O/AdDumsjAAB42mNgYoAAZQYjBmyAGYQZmdhL8zLdDEydARfoAqIAAAABAAMABwAKABMAB///AA8AAQAAAAAAAAAAAAAAAAABAAAAAA==) format('woff');
+}
+body {
+-webkit-text-size-adjust: 100%;
+text-size-adjust: 100%;
+color: #333;
+font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-size: 16px;
+line-height: 1.6;
+word-wrap: break-word;
+}
+a {
+background-color: transparent;
+}
+a:active,
+a:hover {
+outline: 0;
+}
+strong {
+font-weight: bold;
+}
+h1 {
+font-size: 2em;
+margin: 0.67em 0;
+}
+img {
+border: 0;
+}
+hr {
+box-sizing: content-box;
+height: 0;
+}
+pre {
+overflow: auto;
+}
+code,
+kbd,
+pre {
+font-family: monospace, monospace;
+font-size: 1em;
+}
+input {
+color: inherit;
+font: inherit;
+margin: 0;
+}
+html input[disabled] {
+cursor: default;
+}
+input {
+line-height: normal;
+}
+input[type="checkbox"] {
+box-sizing: border-box;
+padding: 0;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+td,
+th {
+padding: 0;
+}
+* {
+box-sizing: border-box;
+}
+input {
+font: 13px / 1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+a {
+color: #4078c0;
+text-decoration: none;
+}
+a:hover,
+a:active {
+text-decoration: underline;
+}
+hr {
+height: 0;
+margin: 15px 0;
+overflow: hidden;
+background: transparent;
+border: 0;
+border-bottom: 1px solid #ddd;
+}
+hr:before {
+display: table;
+content: "";
+}
+hr:after {
+display: table;
+clear: both;
+content: "";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 15px;
+margin-bottom: 15px;
+line-height: 1.1;
+}
+h1 {
+font-size: 30px;
+}
+h2 {
+font-size: 21px;
+}
+h3 {
+font-size: 16px;
+}
+h4 {
+font-size: 14px;
+}
+h5 {
+font-size: 12px;
+}
+h6 {
+font-size: 11px;
+}
+blockquote {
+margin: 0;
+}
+ul,
+ol {
+padding: 0;
+margin-top: 0;
+margin-bottom: 0;
+}
+ol ol,
+ul ol {
+list-style-type: lower-roman;
+}
+ul ul ol,
+ul ol ol,
+ol ul ol,
+ol ol ol {
+list-style-type: lower-alpha;
+}
+dd {
+margin-left: 0;
+}
+code {
+font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+font-size: 12px;
+}
+pre {
+margin-top: 0;
+margin-bottom: 0;
+font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+.select::-ms-expand {
+opacity: 0;
+}
+.octicon {
+font: normal normal normal 16px/1 octicons-link;
+display: inline-block;
+text-decoration: none;
+text-rendering: auto;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+.octicon-link:before {
+content: '\f05c';
+}
+.markdown-body:before {
+display: table;
+content: "";
+}
+.markdown-body:after {
+display: table;
+clear: both;
+content: "";
+}
+.markdown-body>*:first-child {
+margin-top: 0 !important;
+}
+.markdown-body>*:last-child {
+margin-bottom: 0 !important;
+}
+a:not([href]) {
+color: inherit;
+text-decoration: none;
+}
+.anchor {
+display: inline-block;
+padding-right: 2px;
+margin-left: -18px;
+}
+.anchor:focus {
+outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 1em;
+margin-bottom: 16px;
+font-weight: bold;
+line-height: 1.4;
+}
+h1 .octicon-link,
+h2 .octicon-link,
+h3 .octicon-link,
+h4 .octicon-link,
+h5 .octicon-link,
+h6 .octicon-link {
+color: #000;
+vertical-align: middle;
+visibility: hidden;
+}
+h1:hover .anchor,
+h2:hover .anchor,
+h3:hover .anchor,
+h4:hover .anchor,
+h5:hover .anchor,
+h6:hover .anchor {
+text-decoration: none;
+}
+h1:hover .anchor .octicon-link,
+h2:hover .anchor .octicon-link,
+h3:hover .anchor .octicon-link,
+h4:hover .anchor .octicon-link,
+h5:hover .anchor .octicon-link,
+h6:hover .anchor .octicon-link {
+visibility: visible;
+}
+h1 {
+padding-bottom: 0.3em;
+font-size: 2.25em;
+line-height: 1.2;
+border-bottom: 1px solid #eee;
+}
+h1 .anchor {
+line-height: 1;
+}
+h2 {
+padding-bottom: 0.3em;
+font-size: 1.75em;
+line-height: 1.225;
+border-bottom: 1px solid #eee;
+}
+h2 .anchor {
+line-height: 1;
+}
+h3 {
+font-size: 1.5em;
+line-height: 1.43;
+}
+h3 .anchor {
+line-height: 1.2;
+}
+h4 {
+font-size: 1.25em;
+}
+h4 .anchor {
+line-height: 1.2;
+}
+h5 {
+font-size: 1em;
+}
+h5 .anchor {
+line-height: 1.1;
+}
+h6 {
+font-size: 1em;
+color: #777;
+}
+h6 .anchor {
+line-height: 1.1;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table,
+pre {
+margin-top: 0;
+margin-bottom: 16px;
+}
+hr {
+height: 4px;
+padding: 0;
+margin: 16px 0;
+background-color: #e7e7e7;
+border: 0 none;
+}
+ul,
+ol {
+padding-left: 2em;
+}
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+margin-top: 0;
+margin-bottom: 0;
+}
+li>p {
+margin-top: 16px;
+}
+dl {
+padding: 0;
+}
+dl dt {
+padding: 0;
+margin-top: 16px;
+font-size: 1em;
+font-style: italic;
+font-weight: bold;
+}
+dl dd {
+padding: 0 16px;
+margin-bottom: 16px;
+}
+blockquote {
+padding: 0 15px;
+color: #777;
+border-left: 4px solid #ddd;
+}
+blockquote>:first-child {
+margin-top: 0;
+}
+blockquote>:last-child {
+margin-bottom: 0;
+}
+table {
+display: block;
+width: 100%;
+overflow: auto;
+word-break: normal;
+word-break: keep-all;
+}
+table th {
+font-weight: bold;
+}
+table th,
+table td {
+padding: 6px 13px;
+border: 1px solid #ddd;
+}
+table tr {
+background-color: #fff;
+border-top: 1px solid #ccc;
+}
+table tr:nth-child(2n) {
+background-color: #f8f8f8;
+}
+img {
+max-width: 100%;
+box-sizing: content-box;
+background-color: #fff;
+}
+code {
+padding: 0;
+padding-top: 0.2em;
+padding-bottom: 0.2em;
+margin: 0;
+font-size: 85%;
+background-color: rgba(0,0,0,0.04);
+border-radius: 3px;
+}
+code:before,
+code:after {
+letter-spacing: -0.2em;
+content: "\00a0";
+}
+pre>code {
+padding: 0;
+margin: 0;
+font-size: 100%;
+word-break: normal;
+white-space: pre;
+background: transparent;
+border: 0;
+}
+.highlight {
+margin-bottom: 16px;
+}
+.highlight pre,
+pre {
+padding: 16px;
+overflow: auto;
+font-size: 85%;
+line-height: 1.45;
+background-color: #f7f7f7;
+border-radius: 3px;
+}
+.highlight pre {
+margin-bottom: 0;
+word-break: normal;
+}
+pre {
+word-wrap: normal;
+}
+pre code {
+display: inline;
+max-width: initial;
+padding: 0;
+margin: 0;
+overflow: initial;
+line-height: inherit;
+word-wrap: normal;
+background-color: transparent;
+border: 0;
+}
+pre code:before,
+pre code:after {
+content: normal;
+}
+kbd {
+display: inline-block;
+padding: 3px 5px;
+font-size: 11px;
+line-height: 10px;
+color: #555;
+vertical-align: middle;
+background-color: #fcfcfc;
+border: solid 1px #ccc;
+border-bottom-color: #bbb;
+border-radius: 3px;
+box-shadow: inset 0 -1px 0 #bbb;
+}
+.pl-c {
+color: #969896;
+}
+.pl-c1,
+.pl-s .pl-v {
+color: #0086b3;
+}
+.pl-e,
+.pl-en {
+color: #795da3;
+}
+.pl-s .pl-s1,
+.pl-smi {
+color: #333;
+}
+.pl-ent {
+color: #63a35c;
+}
+.pl-k {
+color: #a71d5d;
+}
+.pl-pds,
+.pl-s,
+.pl-s .pl-pse .pl-s1,
+.pl-sr,
+.pl-sr .pl-cce,
+.pl-sr .pl-sra,
+.pl-sr .pl-sre {
+color: #183691;
+}
+.pl-v {
+color: #ed6a43;
+}
+.pl-id {
+color: #b52a1d;
+}
+.pl-ii {
+background-color: #b52a1d;
+color: #f8f8f8;
+}
+.pl-sr .pl-cce {
+color: #63a35c;
+font-weight: bold;
+}
+.pl-ml {
+color: #693a17;
+}
+.pl-mh,
+.pl-mh .pl-en,
+.pl-ms {
+color: #1d3e81;
+font-weight: bold;
+}
+.pl-mq {
+color: #008080;
+}
+.pl-mi {
+color: #333;
+font-style: italic;
+}
+.pl-mb {
+color: #333;
+font-weight: bold;
+}
+.pl-md {
+background-color: #ffecec;
+color: #bd2c00;
+}
+.pl-mi1 {
+background-color: #eaffea;
+color: #55a532;
+}
+.pl-mdr {
+color: #795da3;
+font-weight: bold;
+}
+.pl-mo {
+color: #1d3e81;
+}
+kbd {
+display: inline-block;
+padding: 3px 5px;
+font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+line-height: 10px;
+color: #555;
+vertical-align: middle;
+background-color: #fcfcfc;
+border: solid 1px #ccc;
+border-bottom-color: #bbb;
+border-radius: 3px;
+box-shadow: inset 0 -1px 0 #bbb;
+}
+.task-list-item {
+list-style-type: none;
+}
+.task-list-item+.task-list-item {
+margin-top: 3px;
+}
+.task-list-item input {
+margin: 0 0.35em 0.25em -1.6em;
+vertical-align: middle;
+}
+:checked+.radio-label {
+z-index: 1;
+position: relative;
+border-color: #4078c0;
+}
+.sourceLine {
+display: inline-block;
+}
+code .kw { color: #000000; }
+code .dt { color: #ed6a43; }
+code .dv { color: #009999; }
+code .bn { color: #009999; }
+code .fl { color: #009999; }
+code .ch { color: #009999; }
+code .st { color: #183691; }
+code .co { color: #969896; }
+code .ot { color: #0086b3; }
+code .al { color: #a61717; }
+code .fu { color: #63a35c; }
+code .er { color: #a61717; background-color: #e3d2d2; }
+code .wa { color: #000000; }
+code .cn { color: #008080; }
+code .sc { color: #008080; }
+code .vs { color: #183691; }
+code .ss { color: #183691; }
+code .im { color: #000000; }
+code .va {color: #008080; }
+code .cf { color: #000000; }
+code .op { color: #000000; }
+code .bu { color: #000000; }
+code .ex { color: #000000; }
+code .pp { color: #999999; }
+code .at { color: #008080; }
+code .do { color: #969896; }
+code .an { color: #008080; }
+code .cv { color: #008080; }
+code .in { color: #008080; }
+</style>
+<style>
+body {
+box-sizing: border-box;
+min-width: 200px;
+max-width: 980px;
+margin: 0 auto;
+padding: 45px;
+padding-top: 0px;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<h1 id="taller-07">Taller 07</h1>
+<p>dacarras Thu May 25, 2023</p>
+<hr />
+<h1 id="instrucciones">Instrucciones</h1>
+<ul>
+<li><p>En este taller vamos a volver a emplear los datos del estudio de
+Poli victimizacion de Jovenes, realizada en Chile en Octubre de
+2017.</p></li>
+<li><p>Los datos que vamos a emplear son una versión recortada de los
+datos y con nombres adaptados, que se espera sean más amigables para
+generar los resultados programando en R.</p></li>
+<li><p>El archivo que contiene los datos que vamos a emplear se
+llama:</p></li>
+</ul>
+<!-- -->
+
+<pre><code>datos_poli_2017.csv</code></pre>
+<ul>
+<li>El libro de codigos de la base de datos que vamos a emplear, se
+llama:</li>
+</ul>
+<!-- -->
+
+<pre><code>datos_poli_2017_codebook.xlsx</code></pre>
+<ul>
+<li><strong>Advertencia</strong>: Los datos originales provienen de una
+muestra probabilística. Este tipo de datos, permite realizar inferencias
+a la población, si la información del diseño es empleada para producir
+estimaciones. En este ejercicio con fines ilustrativos, vamos a ignorar
+este aspecto, y solo vamos a producir resultados descriptivos.</li>
+</ul>
+<h1 id="referencias">Referencias</h1>
+<p>Alvarez, E., Guajardo, H., &amp; Messen, R. (1986). Estudio
+exploratorio sobre una escala de autoevaluación para la depresión en
+niños y adolescentes. Revista Chilena de Pediatria, 57(1), 21–25. <a href="https://doi.org/10.4067/s0370-41061986000100003">https://doi.org/10.4067/s0370-41061986000100003</a></p>
+<p>Birleson, P., Hudson, I., Buchanan, D. G., &amp; Wolff, S. (1987).
+Clinical Evaluation of a Self‐Rating Scale for Depressive Disorder in
+Childhood (Depression Self‐Rating Scale). Journal of Child Psychology
+and Psychiatry, 28(1), 43–60. <a href="https://doi.org/10.1111/j.1469-7610.1987.tb00651.x">https://doi.org/10.1111/j.1469-7610.1987.tb00651.x</a></p>
+<p>Consejo Nacional de la Infancia. (2018). Análisis Multivariable de
+Estudio de Polivictimización en Niños, Niñas y Adolescentes realizado
+por la Pontificia Universidad Católica de Chile. <a href="http://biblioteca.digital.gob.cl/handle/123456789/3535">http://biblioteca.digital.gob.cl/handle/123456789/3535</a></p>
+<p>Denda, K., Kako, Y., Kitagawa, N., &amp; Koyama, T. (2006).
+Assessment of depressive symptoms in Japanese school children and
+adolescents using the birleson depression self-rating scale.
+International Journal of Psychiatry in Medicine, 36(2), 231–241. <a href="https://doi.org/10.2190/3YCX-H0MT-49DK-C61Q">https://doi.org/10.2190/3YCX-H0MT-49DK-C61Q</a></p>
+<p>MINSAL. (2013). Guía Clínica para el tratamiento de adolescentes de
+10 a 14 años con Depresión. <a href="https://www.guiadisc.com/wp-content/pdfs/guia-clinica-tratamiento-depresion-adolescentes.pdf">https://www.guiadisc.com/wp-content/pdfs/guia-clinica-tratamiento-depresion-adolescentes.pdf</a></p>
+<p>Subsecretaria Prevención del Delito. (2018). Primera Encuesta
+Nacional de Polivictimización en Niñas, Niños y Adolescentes:
+Presentación de Resultados.</p>
+<hr />
+<h1 id="ejercicio-1-abrir-datos-y-revisar-datos">Ejercicio 1. Abrir
+datos y Revisar datos.</h1>
+<ul>
+<li>Abra los datos <code>datos_poli_2017.csv</code>, empleando la
+función <code>read.csv()</code>. Emplee un objeto llamado
+<code>data_poli_full</code> para alojar a los datos abiertos.</li>
+</ul>
+<p><strong>Codigo 1.1:</strong> leer datos desde csv.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># abrir datos</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>data_poli_full <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">&#39;datos_poli_2017.csv&#39;</span>)</span></code></pre></div>
+<p><strong>Codigo 1.2:</strong> revisar datos.</p>
+<ul>
+<li><strong>¿Cuántas variables y cuántos casos posee la base de datos
+original?</strong></li>
+<li>Indique su respuesta bajo el código.</li>
+</ul>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># revisar datos cargados</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>dplyr<span class="sc">::</span><span class="fu">glimpse</span>(data_poli_full)</span></code></pre></div>
+<pre><code>## Rows: 19,684
+## Columns: 46
+## $ id_i  [3m[38;5;246m&lt;int&gt;[39m[23m 47601, 47602, 47603, 47604, 47605, 47606, 47607, 47608, 47609, 4…
+## $ curso [3m[38;5;246m&lt;int&gt;[39m[23m 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4…
+## $ sexo  [3m[38;5;246m&lt;int&gt;[39m[23m 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 1, 2, 2, 1, 1, 1, 1, 1, 1, 1, 2…
+## $ edad  [3m[38;5;246m&lt;int&gt;[39m[23m 1, 1, 1, 2, 1, 1, 2, 2, 2, 3, 3, 2, 3, 2, 3, 3, 3, 3, 4, 3, 3, 4…
+## $ v01   [3m[38;5;246m&lt;int&gt;[39m[23m 2, 2, 2, 1, 2, 2, 1, 1, 2, 1, 2, 1, 1, 2, 2, 1, 2, 2, 2, 2, 2, 1…
+## $ v02   [3m[38;5;246m&lt;int&gt;[39m[23m 2, 2, 2, NA, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, NA, 2, 2, 2,…
+## $ v03   [3m[38;5;246m&lt;int&gt;[39m[23m 1, 1, 1, 2, 2, 2, 1, 2, 1, 2, 2, 1, 1, 1, 1, 2, 2, 2, 2, 1, 1, 1…
+## $ v04   [3m[38;5;246m&lt;int&gt;[39m[23m 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 1, 2, 2, 2, 2, 2, NA, 2, 2, 2, …
+## $ v05   [3m[38;5;246m&lt;int&gt;[39m[23m 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2…
+## $ v06   [3m[38;5;246m&lt;int&gt;[39m[23m 2, 2, 1, 1, 2, 1, 1, 1, 1, 2, 2, 1, 2, 1, 2, 2, 2, 1, 1, 1, 1, 1…
+## $ v07   [3m[38;5;246m&lt;int&gt;[39m[23m 1, 2, 2, 2, 2, 1, 2, 2, 1, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2…
+## $ au1   [3m[38;5;246m&lt;int&gt;[39m[23m 5, 5, 4, 3, 4, 4, 5, 5, 5, 5, 3, 4, 4, 4, 5, 5, 5, 5, 5, 4, 3, 5…
+## $ au2   [3m[38;5;246m&lt;int&gt;[39m[23m 5, 5, 5, 2, 4, 4, 5, 5, 5, 5, 3, 4, 4, 4, 5, 4, 5, 5, 5, 4, 4, 5…
+## $ au3   [3m[38;5;246m&lt;int&gt;[39m[23m 1, 1, 1, 3, 1, 2, 2, 2, 3, 2, 3, 4, 2, 2, 3, 3, 1, 3, 1, 2, 4, 1…
+## $ au4   [3m[38;5;246m&lt;int&gt;[39m[23m 5, 5, 5, 2, 5, 3, 4, 5, 5, 4, 3, 3, 4, 3, 4, 4, 5, 5, 5, 5, 4, 5…
+## $ au5   [3m[38;5;246m&lt;int&gt;[39m[23m 1, 2, 1, 2, 2, 4, 1, 1, 1, 1, 3, 3, 2, 1, 5, 4, 1, 1, 1, 2, 5, 1…
+## $ au6   [3m[38;5;246m&lt;int&gt;[39m[23m 5, 4, 5, 2, 5, 4, 5, 5, 5, 5, 3, 3, 4, 3, 3, 3, 4, 5, 4, 4, 2, 5…
+## $ au7   [3m[38;5;246m&lt;int&gt;[39m[23m 5, 4, 5, 1, 4, 3, 5, 5, 5, 5, 3, 4, 3, 5, 2, 4, 5, 5, 5, 3, 2, 5…
+## $ au8   [3m[38;5;246m&lt;int&gt;[39m[23m 1, 2, 2, 5, 4, 3, 5, 2, 1, 4, 3, 5, 3, 2, 5, 4, 1, 1, 2, 3, 2, 1…
+## $ au9   [3m[38;5;246m&lt;int&gt;[39m[23m 1, 2, 1, 4, 2, 2, 2, 2, 1, 4, 3, 5, 2, 4, 4, 3, 3, 3, 2, 2, 4, 1…
+## $ au10  [3m[38;5;246m&lt;int&gt;[39m[23m 1, 1, 1, 4, 1, 3, 2, 3, 1, 4, 4, 2, 2, 2, 5, 4, 2, 2, 2, 1, 2, 1…
+## $ d01   [3m[38;5;246m&lt;int&gt;[39m[23m 3, 2, 2, 2, 2, 3, 3, 1, 3, 2, 2, 2, 3, 2, 3, 2, 2, 3, 3, 2, 1, 2…
+## $ d02   [3m[38;5;246m&lt;int&gt;[39m[23m 2, 2, 2, 2, 2, 1, 2, 2, 3, 2, 3, 3, 1, 2, 2, 1, 2, 2, 2, 3, 2, 1…
+## $ d03   [3m[38;5;246m&lt;int&gt;[39m[23m 1, 1, 1, 2, 1, 1, 1, 1, 2, 2, 3, 3, 1, 1, 3, 1, 1, 1, 1, 2, 1, 1…
+## $ d04   [3m[38;5;246m&lt;int&gt;[39m[23m 1, 2, 2, 1, 1, 1, 1, 1, 2, 1, 2, 2, 2, 1, 2, 2, 2, 1, 1, 2, 2, 1…
+## $ d05   [3m[38;5;246m&lt;int&gt;[39m[23m 2, 2, 2, 1, 3, 2, 3, 3, 2, 1, 2, 2, 2, 1, 1, 1, 1, 2, 2, 1, 1, 2…
+## $ d06   [3m[38;5;246m&lt;int&gt;[39m[23m 3, 1, 3, 2, 2, 2, 3, 3, 1, 2, 2, 1, 1, 3, 2, 2, 3, 3, 2, 2, 2, 3…
+## $ d07   [3m[38;5;246m&lt;int&gt;[39m[23m 2, 2, 3, 1, 2, 2, 2, 3, 3, 3, 2, 2, 3, 2, 3, 2, 2, 3, 2, 2, 1, 3…
+## $ d08   [3m[38;5;246m&lt;int&gt;[39m[23m 3, 3, 3, 3, 3, 3, 3, 3, 2, 3, 3, 2, 2, 3, 3, 3, 3, 3, 3, 3, 2, 3…
+## $ d09   [3m[38;5;246m&lt;int&gt;[39m[23m 2, 3, 3, 1, 2, 3, 1, 3, 3, 2, 2, 3, 2, 3, 2, 3, 3, 2, 3, 2, 2, 3…
+## $ d10   [3m[38;5;246m&lt;int&gt;[39m[23m 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 2, 1, 1, 1, 1, 1, 2, 1…
+## $ d11   [3m[38;5;246m&lt;int&gt;[39m[23m 3, 2, 3, 2, 2, 2, 2, 3, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 2, 3…
+## $ d12   [3m[38;5;246m&lt;int&gt;[39m[23m 3, 3, 3, 2, 2, 2, 2, 3, 1, 3, 2, 2, 2, 3, 2, 3, 3, 3, 3, 2, 1, 3…
+## $ d13   [3m[38;5;246m&lt;int&gt;[39m[23m 2, 3, 3, 2, 3, 2, 3, 3, 1, 3, 1, 2, 2, 3, 3, 3, 3, 3, 3, 2, 1, 3…
+## $ d14   [3m[38;5;246m&lt;int&gt;[39m[23m 1, 1, 2, 1, 2, 1, 1, 1, 2, 2, 2, 3, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1…
+## $ d15   [3m[38;5;246m&lt;int&gt;[39m[23m 1, 1, 1, 2, 1, 1, 1, 1, 2, 2, 2, 3, 1, 1, 2, 2, 1, 2, 1, 3, NA, …
+## $ d16   [3m[38;5;246m&lt;int&gt;[39m[23m 2, 3, 3, 2, 2, 3, 3, 3, 3, 3, 2, 2, 2, 2, 3, 2, 2, 3, 3, 2, 1, 3…
+## $ d17   [3m[38;5;246m&lt;int&gt;[39m[23m 1, 1, 1, 2, 1, 1, 1, 1, 2, 2, 1, 3, 1, 1, 2, 1, 1, 1, 1, 3, 2, 1…
+## $ d18   [3m[38;5;246m&lt;int&gt;[39m[23m 2, 2, 2, 3, 2, 2, 1, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 1, 2, 3, 3, 1…
+## $ self  [3m[38;5;246m&lt;int&gt;[39m[23m 50, 45, 48, 22, 42, 34, 42, 45, 48, 39, 29, 29, 38, 38, 27, 32, …
+## $ dep   [3m[38;5;246m&lt;int&gt;[39m[23m 7, 9, 6, 18, 10, 7, 6, 4, 17, 12, 19, 22, 10, 8, 14, 11, 8, 4, 5…
+## $ adm   [3m[38;5;246m&lt;int&gt;[39m[23m 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1…
+## $ zona  [3m[38;5;246m&lt;int&gt;[39m[23m 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4…
+## $ prio  [3m[38;5;246m&lt;dbl&gt;[39m[23m 0.1644245, 0.1644245, 0.1644245, 0.1644245, 0.1644245, 0.1644245…
+## $ comu  [3m[38;5;246m&lt;int&gt;[39m[23m 115, 115, 115, 115, 115, 115, 115, 115, 115, 115, 115, 115, 115,…
+## $ poli  [3m[38;5;246m&lt;int&gt;[39m[23m 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2…</code></pre>
+<ul>
+<li>Respuesta
+<ul>
+<li>Casos: [escribir aqui la cantidad de casos, y borrar los
+corchetes]</li>
+<li>Variables: [escribir aqui la cantidad de variables, y borrar los
+corchetes]</li>
+</ul></li>
+</ul>
+<h1 id="ejercicio-2-recodificación-de-variable-de-muchos-valores">Ejercicio
+2. Recodificación de variable de muchos valores.</h1>
+<p>Recodifique la variable <code>edad</code> en una nueva variable
+<code>edad_cat</code> que contenga tres grupos:</p>
+<ul>
+<li>Grupo A: estudiantes de 12 a 13 años</li>
+<li>Grupo B: estudiantes de 14 a 15 años</li>
+<li>Grupo C: estudiantes de 16 años o más</li>
+</ul>
+<p><strong>Codigo 2.1:</strong> recodificar variable continua en
+tramos.</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="co"># información de la variable a recodificar</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="co"># variable: edad</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Edad en tramos</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="co"># [1] 12 años</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="co"># [2] 13 años</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="co"># [3] 14 años</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="co"># [4] 15 años</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="co"># [5] 16 años</span></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a><span class="co"># [6] 17 años o más</span></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a><span class="co"># recodicacion de variable continua en tramos.</span></span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>data_poli   <span class="ot">&lt;-</span> data_poli_full <span class="sc">%&gt;%</span></span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>               <span class="fu">mutate</span>(<span class="at">edad_cat =</span> <span class="fu">case_when</span>(</span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>               <span class="fu">between</span>(edad, <span class="dv">1</span>,  <span class="dv">2</span>) <span class="sc">~</span> <span class="st">&#39;Grupo A&#39;</span>,</span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a>               <span class="fu">between</span>(edad, <span class="dv">3</span>,  <span class="dv">4</span>) <span class="sc">~</span> <span class="st">&#39;Grupo B&#39;</span>,</span>
+<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a>               <span class="fu">between</span>(edad, <span class="dv">5</span>,  <span class="dv">6</span>) <span class="sc">~</span> <span class="st">&#39;Grupo C&#39;</span></span>
+<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a>               )) <span class="sc">%&gt;%</span></span>
+<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a>               <span class="co"># eliminar datos sin edad</span></span>
+<span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a>               dplyr<span class="sc">::</span><span class="fu">filter</span>(<span class="fu">between</span>(edad, <span class="dv">1</span>,<span class="dv">6</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a>               dplyr<span class="sc">::</span><span class="fu">glimpse</span>()</span></code></pre></div>
+<pre><code>## Rows: 19,433
+## Columns: 47
+## $ id_i     [3m[38;5;246m&lt;int&gt;[39m[23m 47601, 47602, 47603, 47604, 47605, 47606, 47607, 47608, 47609…
+## $ curso    [3m[38;5;246m&lt;int&gt;[39m[23m 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3…
+## $ sexo     [3m[38;5;246m&lt;int&gt;[39m[23m 1, 1, 2, 1, 1, 2, 1, 1, 2, 1, 1, 1, 2, 2, 1, 1, 1, 1, 1, 1, 1…
+## $ edad     [3m[38;5;246m&lt;int&gt;[39m[23m 1, 1, 1, 2, 1, 1, 2, 2, 2, 3, 3, 2, 3, 2, 3, 3, 3, 3, 4, 3, 3…
+## $ v01      [3m[38;5;246m&lt;int&gt;[39m[23m 2, 2, 2, 1, 2, 2, 1, 1, 2, 1, 2, 1, 1, 2, 2, 1, 2, 2, 2, 2, 2…
+## $ v02      [3m[38;5;246m&lt;int&gt;[39m[23m 2, 2, 2, NA, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, NA, 2, 2,…
+## $ v03      [3m[38;5;246m&lt;int&gt;[39m[23m 1, 1, 1, 2, 2, 2, 1, 2, 1, 2, 2, 1, 1, 1, 1, 2, 2, 2, 2, 1, 1…
+## $ v04      [3m[38;5;246m&lt;int&gt;[39m[23m 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 1, 2, 2, 2, 2, 2, NA, 2, 2, …
+## $ v05      [3m[38;5;246m&lt;int&gt;[39m[23m 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2…
+## $ v06      [3m[38;5;246m&lt;int&gt;[39m[23m 2, 2, 1, 1, 2, 1, 1, 1, 1, 2, 2, 1, 2, 1, 2, 2, 2, 1, 1, 1, 1…
+## $ v07      [3m[38;5;246m&lt;int&gt;[39m[23m 1, 2, 2, 2, 2, 1, 2, 2, 1, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2…
+## $ au1      [3m[38;5;246m&lt;int&gt;[39m[23m 5, 5, 4, 3, 4, 4, 5, 5, 5, 5, 3, 4, 4, 4, 5, 5, 5, 5, 5, 4, 3…
+## $ au2      [3m[38;5;246m&lt;int&gt;[39m[23m 5, 5, 5, 2, 4, 4, 5, 5, 5, 5, 3, 4, 4, 4, 5, 4, 5, 5, 5, 4, 4…
+## $ au3      [3m[38;5;246m&lt;int&gt;[39m[23m 1, 1, 1, 3, 1, 2, 2, 2, 3, 2, 3, 4, 2, 2, 3, 3, 1, 3, 1, 2, 4…
+## $ au4      [3m[38;5;246m&lt;int&gt;[39m[23m 5, 5, 5, 2, 5, 3, 4, 5, 5, 4, 3, 3, 4, 3, 4, 4, 5, 5, 5, 5, 4…
+## $ au5      [3m[38;5;246m&lt;int&gt;[39m[23m 1, 2, 1, 2, 2, 4, 1, 1, 1, 1, 3, 3, 2, 1, 5, 4, 1, 1, 1, 2, 5…
+## $ au6      [3m[38;5;246m&lt;int&gt;[39m[23m 5, 4, 5, 2, 5, 4, 5, 5, 5, 5, 3, 3, 4, 3, 3, 3, 4, 5, 4, 4, 2…
+## $ au7      [3m[38;5;246m&lt;int&gt;[39m[23m 5, 4, 5, 1, 4, 3, 5, 5, 5, 5, 3, 4, 3, 5, 2, 4, 5, 5, 5, 3, 2…
+## $ au8      [3m[38;5;246m&lt;int&gt;[39m[23m 1, 2, 2, 5, 4, 3, 5, 2, 1, 4, 3, 5, 3, 2, 5, 4, 1, 1, 2, 3, 2…
+## $ au9      [3m[38;5;246m&lt;int&gt;[39m[23m 1, 2, 1, 4, 2, 2, 2, 2, 1, 4, 3, 5, 2, 4, 4, 3, 3, 3, 2, 2, 4…
+## $ au10     [3m[38;5;246m&lt;int&gt;[39m[23m 1, 1, 1, 4, 1, 3, 2, 3, 1, 4, 4, 2, 2, 2, 5, 4, 2, 2, 2, 1, 2…
+## $ d01      [3m[38;5;246m&lt;int&gt;[39m[23m 3, 2, 2, 2, 2, 3, 3, 1, 3, 2, 2, 2, 3, 2, 3, 2, 2, 3, 3, 2, 1…
+## $ d02      [3m[38;5;246m&lt;int&gt;[39m[23m 2, 2, 2, 2, 2, 1, 2, 2, 3, 2, 3, 3, 1, 2, 2, 1, 2, 2, 2, 3, 2…
+## $ d03      [3m[38;5;246m&lt;int&gt;[39m[23m 1, 1, 1, 2, 1, 1, 1, 1, 2, 2, 3, 3, 1, 1, 3, 1, 1, 1, 1, 2, 1…
+## $ d04      [3m[38;5;246m&lt;int&gt;[39m[23m 1, 2, 2, 1, 1, 1, 1, 1, 2, 1, 2, 2, 2, 1, 2, 2, 2, 1, 1, 2, 2…
+## $ d05      [3m[38;5;246m&lt;int&gt;[39m[23m 2, 2, 2, 1, 3, 2, 3, 3, 2, 1, 2, 2, 2, 1, 1, 1, 1, 2, 2, 1, 1…
+## $ d06      [3m[38;5;246m&lt;int&gt;[39m[23m 3, 1, 3, 2, 2, 2, 3, 3, 1, 2, 2, 1, 1, 3, 2, 2, 3, 3, 2, 2, 2…
+## $ d07      [3m[38;5;246m&lt;int&gt;[39m[23m 2, 2, 3, 1, 2, 2, 2, 3, 3, 3, 2, 2, 3, 2, 3, 2, 2, 3, 2, 2, 1…
+## $ d08      [3m[38;5;246m&lt;int&gt;[39m[23m 3, 3, 3, 3, 3, 3, 3, 3, 2, 3, 3, 2, 2, 3, 3, 3, 3, 3, 3, 3, 2…
+## $ d09      [3m[38;5;246m&lt;int&gt;[39m[23m 2, 3, 3, 1, 2, 3, 1, 3, 3, 2, 2, 3, 2, 3, 2, 3, 3, 2, 3, 2, 2…
+## $ d10      [3m[38;5;246m&lt;int&gt;[39m[23m 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 2, 1, 1, 1, 1, 1, 2…
+## $ d11      [3m[38;5;246m&lt;int&gt;[39m[23m 3, 2, 3, 2, 2, 2, 2, 3, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 2…
+## $ d12      [3m[38;5;246m&lt;int&gt;[39m[23m 3, 3, 3, 2, 2, 2, 2, 3, 1, 3, 2, 2, 2, 3, 2, 3, 3, 3, 3, 2, 1…
+## $ d13      [3m[38;5;246m&lt;int&gt;[39m[23m 2, 3, 3, 2, 3, 2, 3, 3, 1, 3, 1, 2, 2, 3, 3, 3, 3, 3, 3, 2, 1…
+## $ d14      [3m[38;5;246m&lt;int&gt;[39m[23m 1, 1, 2, 1, 2, 1, 1, 1, 2, 2, 2, 3, 1, 1, 1, 2, 1, 1, 1, 1, 1…
+## $ d15      [3m[38;5;246m&lt;int&gt;[39m[23m 1, 1, 1, 2, 1, 1, 1, 1, 2, 2, 2, 3, 1, 1, 2, 2, 1, 2, 1, 3, N…
+## $ d16      [3m[38;5;246m&lt;int&gt;[39m[23m 2, 3, 3, 2, 2, 3, 3, 3, 3, 3, 2, 2, 2, 2, 3, 2, 2, 3, 3, 2, 1…
+## $ d17      [3m[38;5;246m&lt;int&gt;[39m[23m 1, 1, 1, 2, 1, 1, 1, 1, 2, 2, 1, 3, 1, 1, 2, 1, 1, 1, 1, 3, 2…
+## $ d18      [3m[38;5;246m&lt;int&gt;[39m[23m 2, 2, 2, 3, 2, 2, 1, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 1, 2, 3, 3…
+## $ self     [3m[38;5;246m&lt;int&gt;[39m[23m 50, 45, 48, 22, 42, 34, 42, 45, 48, 39, 29, 29, 38, 38, 27, 3…
+## $ dep      [3m[38;5;246m&lt;int&gt;[39m[23m 7, 9, 6, 18, 10, 7, 6, 4, 17, 12, 19, 22, 10, 8, 14, 11, 8, 4…
+## $ adm      [3m[38;5;246m&lt;int&gt;[39m[23m 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1…
+## $ zona     [3m[38;5;246m&lt;int&gt;[39m[23m 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4…
+## $ prio     [3m[38;5;246m&lt;dbl&gt;[39m[23m 0.1644245, 0.1644245, 0.1644245, 0.1644245, 0.1644245, 0.1644…
+## $ comu     [3m[38;5;246m&lt;int&gt;[39m[23m 115, 115, 115, 115, 115, 115, 115, 115, 115, 115, 115, 115, 1…
+## $ poli     [3m[38;5;246m&lt;int&gt;[39m[23m 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2…
+## $ edad_cat [3m[38;5;246m&lt;chr&gt;[39m[23m &quot;Grupo A&quot;, &quot;Grupo A&quot;, &quot;Grupo A&quot;, &quot;Grupo A&quot;, &quot;Grupo A&quot;, &quot;Grupo…</code></pre>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Nota: edad es discreta (no tiene decimales)</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="co"># revision de la variable generada</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>data_poli <span class="sc">%&gt;%</span></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a><span class="fu">group_by</span>(edad_cat) <span class="sc">%&gt;%</span></span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a><span class="fu">summarize</span>(</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a><span class="at">edad_min =</span> <span class="fu">min</span>(edad, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a><span class="at">edad_max =</span> <span class="fu">max</span>(edad, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a><span class="at">n =</span> <span class="fu">n</span>()</span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>) <span class="sc">%&gt;%</span></span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(., <span class="at">digits =</span> <span class="dv">2</span>)</span></code></pre></div>
+<table>
+<thead>
+<tr class="header">
+<th align="left">edad_cat</th>
+<th align="right">edad_min</th>
+<th align="right">edad_max</th>
+<th align="right">n</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Grupo A</td>
+<td align="right">1</td>
+<td align="right">2</td>
+<td align="right">5534</td>
+</tr>
+<tr class="even">
+<td align="left">Grupo B</td>
+<td align="right">3</td>
+<td align="right">4</td>
+<td align="right">7474</td>
+</tr>
+<tr class="odd">
+<td align="left">Grupo C</td>
+<td align="right">5</td>
+<td align="right">6</td>
+<td align="right">6425</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Nota: no es recomendable borrar datos, cuando estos estan perdidos en
+cualquier escenarios. En este caso, estamos borrando datos sin datos
+observados en la variable de edad solo con propositos ilustrativos.</p>
+</blockquote>
+<h1 id="ejercicio-3-crear-una-muestra-de-los-datos-originales">Ejercicio
+3. Crear una muestra de los datos originales.</h1>
+<p>Vamos a crear una muestra de 500 casos, y vamos a emplear un seed
+generico con <code>set.seed(123456)</code>; y además vamos a revisar las
+proporciones de casos son las que nos quedamos.</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="co"># muestra de 500 casos</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123456</span>)</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>data_model <span class="ot">&lt;-</span> dplyr<span class="sc">::</span><span class="fu">slice_sample</span>(data_poli, <span class="at">n =</span> <span class="dv">500</span>)</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a><span class="co"># revision de la variable generada</span></span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>data_model <span class="sc">%&gt;%</span></span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a><span class="fu">group_by</span>(edad_cat) <span class="sc">%&gt;%</span></span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a><span class="fu">summarize</span>(</span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a><span class="at">n =</span> <span class="fu">n</span>()</span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a>) <span class="sc">%&gt;%</span></span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a><span class="fu">mutate</span>(<span class="at">p =</span> n<span class="sc">/</span><span class="fu">sum</span>(n)) <span class="sc">%&gt;%</span></span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(., <span class="at">digits =</span> <span class="dv">2</span>)</span></code></pre></div>
+<table>
+<thead>
+<tr class="header">
+<th align="left">edad_cat</th>
+<th align="right">n</th>
+<th align="right">p</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Grupo A</td>
+<td align="right">144</td>
+<td align="right">0.29</td>
+</tr>
+<tr class="even">
+<td align="left">Grupo B</td>
+<td align="right">194</td>
+<td align="right">0.39</td>
+</tr>
+<tr class="odd">
+<td align="left">Grupo C</td>
+<td align="right">162</td>
+<td align="right">0.32</td>
+</tr>
+</tbody>
+</table>
+<h1 id="ejercicio-4-medias-descriptivas-de-la-variable-de-respuesta">Ejercicio
+4. Medias descriptivas de la variable de respuesta.</h1>
+<p>Vamos a emplear a la variable <code>dep</code>, como la variable de
+respuesta. Esta variable posee los puntajes de escala de Birleson de
+depresión. En este ejercicio, antes de ajustar modelos de regresión,
+vamos a calcular las medias descriptivas de cada uno de los grupos
+etarios que creamos, los grupos a, b, y c; alojados en la variable
+<code>edad_cat</code>.</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="co"># medias de depresion por grupo</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>data_model <span class="sc">%&gt;%</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="fu">group_by</span>(edad_cat) <span class="sc">%&gt;%</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a><span class="fu">summarize</span>(</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a><span class="at">media_depresion =</span> <span class="fu">mean</span>(dep, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>) <span class="sc">%&gt;%</span></span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(., <span class="at">digits =</span> <span class="dv">2</span>)</span></code></pre></div>
+<table>
+<thead>
+<tr class="header">
+<th align="left">edad_cat</th>
+<th align="right">media_depresion</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Grupo A</td>
+<td align="right">11.31</td>
+</tr>
+<tr class="even">
+<td align="left">Grupo B</td>
+<td align="right">12.01</td>
+</tr>
+<tr class="odd">
+<td align="left">Grupo C</td>
+<td align="right">12.58</td>
+</tr>
+</tbody>
+</table>
+<p><strong>¿Qué medias posee cada grupo?</strong></p>
+<ul>
+<li><strong>Respuesta</strong>
+<ul>
+<li>Media grupo A: <code>11.31</code></li>
+<li>Media grupo B: <code>12.01</code></li>
+<li>Media grupo C: <code>12.58</code></li>
+</ul></li>
+</ul>
+<h1 id="ejercicio-5-crear-variables-indicadoras">Ejercicio 5. Crear
+variables indicadoras</h1>
+<p>A partir de la variable <code>edad_cat</code> vamos a crear variables
+indicadoras. Vamos a generar estas variables para cada uno de los tramos
+de edad que creamos anteriormente.</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="co"># creación de variables indicadoras (dummies)</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>data_model <span class="ot">&lt;-</span> data_model <span class="sc">%&gt;%</span></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>              <span class="fu">mutate</span>(<span class="at">grupo_a =</span> dplyr<span class="sc">::</span><span class="fu">if_else</span>(edad_cat <span class="sc">==</span> <span class="st">&#39;Grupo A&#39;</span>, <span class="dv">1</span>, <span class="dv">0</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>              <span class="fu">mutate</span>(<span class="at">grupo_b =</span> dplyr<span class="sc">::</span><span class="fu">if_else</span>(edad_cat <span class="sc">==</span> <span class="st">&#39;Grupo B&#39;</span>, <span class="dv">1</span>, <span class="dv">0</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>              <span class="fu">mutate</span>(<span class="at">grupo_c =</span> dplyr<span class="sc">::</span><span class="fu">if_else</span>(edad_cat <span class="sc">==</span> <span class="st">&#39;Grupo C&#39;</span>, <span class="dv">1</span>, <span class="dv">0</span>)) <span class="sc">%&gt;%</span></span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>              dplyr<span class="sc">::</span><span class="fu">glimpse</span>()</span></code></pre></div>
+<pre><code>## Rows: 500
+## Columns: 50
+## $ id_i     [3m[38;5;246m&lt;int&gt;[39m[23m 50621, 22614, 45404, 77625, 25809, 74419, 21832, 10703, 83511…
+## $ curso    [3m[38;5;246m&lt;int&gt;[39m[23m 4, 3, 3, 5, 2, 1, 3, 1, 3, 3, 3, 5, 1, 1, 2, 5, 2, 4, 5, 3, 2…
+## $ sexo     [3m[38;5;246m&lt;int&gt;[39m[23m 2, 1, 1, 2, 1, 2, 2, 1, 2, 1, 1, 2, 2, 1, 1, 2, 2, 2, 1, 1, 2…
+## $ edad     [3m[38;5;246m&lt;int&gt;[39m[23m 5, 4, 4, 6, 3, 2, 4, 3, 4, 3, 5, 6, 4, 1, 2, 5, 3, 5, 6, 4, 2…
+## $ v01      [3m[38;5;246m&lt;int&gt;[39m[23m 1, 2, 2, 1, 2, 2, 1, 1, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2…
+## $ v02      [3m[38;5;246m&lt;int&gt;[39m[23m 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2…
+## $ v03      [3m[38;5;246m&lt;int&gt;[39m[23m 1, 2, 2, 1, 2, 1, 1, 2, 1, 2, 2, 2, 2, 2, 1, 1, 2, 2, 2, NA, …
+## $ v04      [3m[38;5;246m&lt;int&gt;[39m[23m 2, 2, 2, 2, 2, 2, 2, 1, 2, 1, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2…
+## $ v05      [3m[38;5;246m&lt;int&gt;[39m[23m 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2…
+## $ v06      [3m[38;5;246m&lt;int&gt;[39m[23m 1, 2, 2, 1, 2, 2, 1, 1, 1, 2, 2, 1, 1, 2, 1, 2, 2, 2, 1, 1, 2…
+## $ v07      [3m[38;5;246m&lt;int&gt;[39m[23m 2, 2, 2, 2, 2, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 2, 2, 2, 2…
+## $ au1      [3m[38;5;246m&lt;int&gt;[39m[23m 4, 5, 4, 4, 4, 4, 3, 4, 4, 4, 3, 5, 3, 4, 3, 3, 4, 3, 5, 5, 4…
+## $ au2      [3m[38;5;246m&lt;int&gt;[39m[23m 4, 5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 4, 4, 4, 4, 4, 3, 5, 5, 4…
+## $ au3      [3m[38;5;246m&lt;int&gt;[39m[23m 2, 3, 2, 3, 2, 3, 2, 4, 1, 2, 3, 1, 3, 3, 4, 3, 1, 3, 1, 2, 1…
+## $ au4      [3m[38;5;246m&lt;int&gt;[39m[23m 4, 2, 3, 4, 5, 5, 4, 4, 5, 4, 3, 5, 4, 4, 4, 4, 5, 3, 5, 5, 4…
+## $ au5      [3m[38;5;246m&lt;int&gt;[39m[23m 3, 3, 2, 3, 2, 3, 2, 4, 1, 2, 3, 4, NA, 3, 2, 4, 5, 2, 1, 1, …
+## $ au6      [3m[38;5;246m&lt;int&gt;[39m[23m 4, 3, 4, 3, 5, 5, 2, 2, 5, 2, 3, 5, 4, 4, 3, 4, 5, 5, 4, 5, 4…
+## $ au7      [3m[38;5;246m&lt;int&gt;[39m[23m 4, 4, 3, 4, 5, 4, 3, 2, 5, 3, 3, 4, 4, 4, 4, 3, 5, 4, 4, 5, 4…
+## $ au8      [3m[38;5;246m&lt;int&gt;[39m[23m 3, 3, 4, 5, NA, 5, 3, 4, 5, 5, 3, 2, 4, 4, 4, 3, 2, 4, 5, 5, …
+## $ au9      [3m[38;5;246m&lt;int&gt;[39m[23m 2, 3, 3, 4, 2, 5, 4, 4, 1, 4, 2, 2, 3, 3, 3, NA, 1, 4, 1, 1, …
+## $ au10     [3m[38;5;246m&lt;int&gt;[39m[23m 2, 4, 3, 4, 2, 4, 3, 4, 1, 3, 2, 1, 3, 4, 3, 2, 2, 4, 1, 3, 1…
+## $ d01      [3m[38;5;246m&lt;int&gt;[39m[23m 2, 2, 2, 3, 2, 1, 2, 2, 3, 3, 2, 2, 2, 2, 2, 2, 1, 2, 3, 3, 1…
+## $ d02      [3m[38;5;246m&lt;int&gt;[39m[23m 1, 2, 2, 1, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 3, 2, 2, 1, 2, 2, 1…
+## $ d03      [3m[38;5;246m&lt;int&gt;[39m[23m 2, 1, 2, 1, 1, 1, 1, 2, 1, 2, 2, 3, 2, 1, 2, 1, 2, 1, 2, 2, 1…
+## $ d04      [3m[38;5;246m&lt;int&gt;[39m[23m 2, 1, 1, 1, 2, 2, 1, 2, 1, 2, 2, 1, 2, 1, 1, 2, 1, 1, 2, 2, 1…
+## $ d05      [3m[38;5;246m&lt;int&gt;[39m[23m 3, 2, 1, 1, 2, 3, 2, 1, 3, 2, 2, 2, 2, 2, 2, 1, 1, 2, 1, 2, N…
+## $ d06      [3m[38;5;246m&lt;int&gt;[39m[23m 1, 3, 3, 2, 3, 3, 3, 1, 3, 3, 2, 3, 3, 3, 2, 2, 3, 2, 3, 3, N…
+## $ d07      [3m[38;5;246m&lt;int&gt;[39m[23m 2, 3, 2, 2, 3, 3, 2, 1, 3, 2, 3, 2, 2, 3, 2, 2, 3, 2, 3, 2, N…
+## $ d08      [3m[38;5;246m&lt;int&gt;[39m[23m 3, 3, 3, 3, 3, 3, 3, 2, 3, 2, 3, 3, 2, 3, 2, 3, 3, 2, 3, 3, N…
+## $ d09      [3m[38;5;246m&lt;int&gt;[39m[23m 2, 3, 3, 2, 3, 3, 3, 2, 3, 2, 3, 3, 2, 3, 2, 2, 2, 2, 3, 3, 3…
+## $ d10      [3m[38;5;246m&lt;int&gt;[39m[23m 1, 1, 1, 1, 1, 2, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 1, 1, 1…
+## $ d11      [3m[38;5;246m&lt;int&gt;[39m[23m 2, 2, 2, 2, 3, 3, 2, 2, 3, 2, 2, 2, 2, NA, 2, 2, 2, 2, 3, 2, …
+## $ d12      [3m[38;5;246m&lt;int&gt;[39m[23m 2, 3, 2, 2, 3, 3, 2, 2, 3, 2, 2, 2, 2, 2, 2, 3, 3, 2, 3, 3, 3…
+## $ d13      [3m[38;5;246m&lt;int&gt;[39m[23m 2, 3, 3, 2, 3, 3, 3, 2, 3, 3, 2, 2, 3, 1, 3, 2, 3, 2, 3, 3, 3…
+## $ d14      [3m[38;5;246m&lt;int&gt;[39m[23m 2, 1, 1, 1, 2, 2, 2, 3, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 1, 1, 1…
+## $ d15      [3m[38;5;246m&lt;int&gt;[39m[23m 3, 1, 1, 2, 1, 2, 2, 3, 1, 2, 2, 1, 1, 1, 2, 1, 2, 2, 2, 1, 1…
+## $ d16      [3m[38;5;246m&lt;int&gt;[39m[23m 3, 2, 2, 2, 3, 2, 1, 2, 3, 3, 2, 2, 2, 3, 2, 3, 2, 3, 2, 3, 3…
+## $ d17      [3m[38;5;246m&lt;int&gt;[39m[23m 1, 1, 2, 2, 1, 2, 1, 3, 1, 2, 1, 1, 1, 1, 2, 1, 2, 1, 1, 2, 1…
+## $ d18      [3m[38;5;246m&lt;int&gt;[39m[23m 2, 1, 1, 2, 1, 2, 2, 3, 1, 2, 2, 2, 2, 1, 2, 2, 1, 2, 2, 2, 1…
+## $ self     [3m[38;5;246m&lt;int&gt;[39m[23m 38, 33, 34, 30, NA, 32, 32, 26, 44, 31, 33, 44, NA, 33, 32, N…
+## $ dep      [3m[38;5;246m&lt;int&gt;[39m[23m 14, 5, 10, 12, 5, 10, 10, 25, 1, 12, 12, 11, 12, NA, 16, 12, …
+## $ adm      [3m[38;5;246m&lt;int&gt;[39m[23m 1, 2, 1, 2, 2, 2, 2, 2, 1, 2, 1, 1, 1, 1, 1, 2, 2, 2, 2, 1, 2…
+## $ zona     [3m[38;5;246m&lt;int&gt;[39m[23m 3, 2, 3, 2, 3, 3, 2, 1, 4, 1, 3, 3, 2, 3, 3, 2, 4, 1, 1, 4, 4…
+## $ prio     [3m[38;5;246m&lt;dbl&gt;[39m[23m 0.8587258, 0.4168157, 0.8679654, 0.1720930, 0.3947858, 0.6242…
+## $ comu     [3m[38;5;246m&lt;int&gt;[39m[23m 93, 50, 37, 188, 45, 137, 170, 68, 149, 44, 39, 116, 152, 85,…
+## $ poli     [3m[38;5;246m&lt;int&gt;[39m[23m 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2…
+## $ edad_cat [3m[38;5;246m&lt;chr&gt;[39m[23m &quot;Grupo C&quot;, &quot;Grupo B&quot;, &quot;Grupo B&quot;, &quot;Grupo C&quot;, &quot;Grupo B&quot;, &quot;Grupo…
+## $ grupo_a  [3m[38;5;246m&lt;dbl&gt;[39m[23m 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1…
+## $ grupo_b  [3m[38;5;246m&lt;dbl&gt;[39m[23m 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0…
+## $ grupo_c  [3m[38;5;246m&lt;dbl&gt;[39m[23m 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0…</code></pre>
+<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="co"># revision de dummies generadas</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>dplyr<span class="sc">::</span><span class="fu">count</span>(data_model, edad_cat, grupo_a)</span></code></pre></div>
+<pre><code>##   edad_cat grupo_a   n
+## 1  Grupo A       1 144
+## 2  Grupo B       0 194
+## 3  Grupo C       0 162</code></pre>
+<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>dplyr<span class="sc">::</span><span class="fu">count</span>(data_model, edad_cat, grupo_b)</span></code></pre></div>
+<pre><code>##   edad_cat grupo_b   n
+## 1  Grupo A       0 144
+## 2  Grupo B       1 194
+## 3  Grupo C       0 162</code></pre>
+<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>dplyr<span class="sc">::</span><span class="fu">count</span>(data_model, edad_cat, grupo_c)</span></code></pre></div>
+<pre><code>##   edad_cat grupo_c   n
+## 1  Grupo A       0 144
+## 2  Grupo B       0 194
+## 3  Grupo C       1 162</code></pre>
+<div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="co"># observacion de diagonal</span></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>data_model <span class="sc">%&gt;%</span></span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a><span class="fu">arrange</span>(edad) <span class="sc">%&gt;%</span></span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>dplyr<span class="sc">::</span><span class="fu">select</span>(grupo_a, grupo_b, grupo_c) <span class="sc">%&gt;%</span></span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a><span class="fu">unique</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(., <span class="at">digits =</span> <span class="dv">2</span>)</span></code></pre></div>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">grupo_a</th>
+<th align="right">grupo_b</th>
+<th align="right">grupo_c</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">1</td>
+<td align="right">1</td>
+<td align="right">0</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td align="left">145</td>
+<td align="right">0</td>
+<td align="right">1</td>
+<td align="right">0</td>
+</tr>
+<tr class="odd">
+<td align="left">339</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">1</td>
+</tr>
+</tbody>
+</table>
+<h1 id="ejercicio-6-realize-una-regresión-múltiple-prediciendo-por-grupos-de-edad">Ejercicio
+6. Realize una regresión múltiple prediciendo por grupos de edad.</h1>
+<p>Realize un modelo de regresión múltiple para determinar si los grupos
+de edad (<code>edad_cat</code>) predicen de forma estadisticamente
+significativa la variable de respuesta <code>matrimonio</code>. Muestre
+los resultados del modelo usando el comando <code>summary()</code></p>
+<div class="sourceCode" id="cb20"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="co"># grupo_a es referencia (i.e., es intercepto)</span></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a><span class="fu">lm</span>(dep <span class="sc">~</span> <span class="dv">1</span> <span class="sc">+</span> grupo_b <span class="sc">+</span> grupo_c, <span class="at">data =</span> data_model) <span class="sc">%&gt;%</span></span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>()</span></code></pre></div>
+<pre><code>## 
+## Call:
+## lm(formula = dep ~ 1 + grupo_b + grupo_c, data = data_model)
+## 
+## Residuals:
+##      Min       1Q   Median       3Q      Max 
+## -12.0114  -4.5789  -0.5789   3.6923  21.6923 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)  11.3077     0.5488  20.604   &lt;2e-16 ***
+## grupo_b       0.7037     0.7236   0.972   0.3314    
+## grupo_c       1.2713     0.7475   1.701   0.0897 .  
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 6.257 on 455 degrees of freedom
+##   (42 observations deleted due to missingness)
+## Multiple R-squared:  0.006318,   Adjusted R-squared:  0.001951 
+## F-statistic: 1.447 on 2 and 455 DF,  p-value: 0.2365</code></pre>
+<div class="sourceCode" id="cb22"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="co"># grupo_b es referencia (i.e., es intercepto)</span></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a><span class="fu">lm</span>(dep <span class="sc">~</span> <span class="dv">1</span> <span class="sc">+</span> grupo_a <span class="sc">+</span> grupo_c, <span class="at">data =</span> data_model) <span class="sc">%&gt;%</span></span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>()</span></code></pre></div>
+<pre><code>## 
+## Call:
+## lm(formula = dep ~ 1 + grupo_a + grupo_c, data = data_model)
+## 
+## Residuals:
+##      Min       1Q   Median       3Q      Max 
+## -12.0114  -4.5789  -0.5789   3.6923  21.6923 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)  12.0114     0.4717  25.466   &lt;2e-16 ***
+## grupo_a      -0.7037     0.7236  -0.972    0.331    
+## grupo_c       0.5676     0.6929   0.819    0.413    
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 6.257 on 455 degrees of freedom
+##   (42 observations deleted due to missingness)
+## Multiple R-squared:  0.006318,   Adjusted R-squared:  0.001951 
+## F-statistic: 1.447 on 2 and 455 DF,  p-value: 0.2365</code></pre>
+<div class="sourceCode" id="cb24"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a><span class="co"># grupo_c es referencia (i.e., es intercepto)</span></span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a><span class="fu">lm</span>(dep <span class="sc">~</span> <span class="dv">1</span> <span class="sc">+</span> grupo_a <span class="sc">+</span> grupo_b, <span class="at">data =</span> data_model) <span class="sc">%&gt;%</span></span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>()</span></code></pre></div>
+<pre><code>## 
+## Call:
+## lm(formula = dep ~ 1 + grupo_a + grupo_b, data = data_model)
+## 
+## Residuals:
+##      Min       1Q   Median       3Q      Max 
+## -12.0114  -4.5789  -0.5789   3.6923  21.6923 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)  12.5789     0.5075  24.785   &lt;2e-16 ***
+## grupo_a      -1.2713     0.7475  -1.701   0.0897 .  
+## grupo_b      -0.5676     0.6929  -0.819   0.4131    
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 6.257 on 455 degrees of freedom
+##   (42 observations deleted due to missingness)
+## Multiple R-squared:  0.006318,   Adjusted R-squared:  0.001951 
+## F-statistic: 1.447 on 2 and 455 DF,  p-value: 0.2365</code></pre>
+<h1 id="ejercicio-7-reporte-los-resultados-del-modelo-de-regresión-múltiple">Ejercicio
+7. Reporte los resultados del modelo de regresión múltiple</h1>
+<p>Calcule o identifique los siguientes elementos, empleando el primer
+modelo, donde el grupo_a es la referencia.</p>
+<ul>
+<li>Media del grupo A</li>
+<li>Media del grupo B</li>
+<li>Media del grupo C</li>
+<li>Desviación estándar de los residuos</li>
+<li>Numero de casos</li>
+<li>Estadígrafo F</li>
+</ul>
+<div class="sourceCode" id="cb26"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="co"># modelo 1</span></span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a><span class="co"># &gt; lm(dep ~ 1 + grupo_b + grupo_c, data = data_model) %&gt;%</span></span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a><span class="co"># + summary()</span></span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a><span class="co"># </span></span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Call:</span></span>
+<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a><span class="co"># lm(formula = dep ~ 1 + grupo_b + grupo_c, data = data_model)</span></span>
+<span id="cb26-10"><a href="#cb26-10" aria-hidden="true" tabindex="-1"></a><span class="co"># </span></span>
+<span id="cb26-11"><a href="#cb26-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Residuals:</span></span>
+<span id="cb26-12"><a href="#cb26-12" aria-hidden="true" tabindex="-1"></a><span class="co">#      Min       1Q   Median       3Q      Max </span></span>
+<span id="cb26-13"><a href="#cb26-13" aria-hidden="true" tabindex="-1"></a><span class="co"># -12.0114  -4.5789  -0.5789   3.6923  21.6923 </span></span>
+<span id="cb26-14"><a href="#cb26-14" aria-hidden="true" tabindex="-1"></a><span class="co"># </span></span>
+<span id="cb26-15"><a href="#cb26-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Coefficients:</span></span>
+<span id="cb26-16"><a href="#cb26-16" aria-hidden="true" tabindex="-1"></a><span class="co">#             Estimate Std. Error t value Pr(&gt;|t|)    </span></span>
+<span id="cb26-17"><a href="#cb26-17" aria-hidden="true" tabindex="-1"></a><span class="co"># (Intercept)  11.3077     0.5488  20.604   &lt;2e-16 ***</span></span>
+<span id="cb26-18"><a href="#cb26-18" aria-hidden="true" tabindex="-1"></a><span class="co"># grupo_b       0.7037     0.7236   0.972   0.3314    </span></span>
+<span id="cb26-19"><a href="#cb26-19" aria-hidden="true" tabindex="-1"></a><span class="co"># grupo_c       1.2713     0.7475   1.701   0.0897 .  </span></span>
+<span id="cb26-20"><a href="#cb26-20" aria-hidden="true" tabindex="-1"></a><span class="co"># ---</span></span>
+<span id="cb26-21"><a href="#cb26-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1</span></span>
+<span id="cb26-22"><a href="#cb26-22" aria-hidden="true" tabindex="-1"></a><span class="co"># </span></span>
+<span id="cb26-23"><a href="#cb26-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Residual standard error: 6.257 on 455 degrees of freedom</span></span>
+<span id="cb26-24"><a href="#cb26-24" aria-hidden="true" tabindex="-1"></a><span class="co">#   (42 observations deleted due to missingness)</span></span>
+<span id="cb26-25"><a href="#cb26-25" aria-hidden="true" tabindex="-1"></a><span class="co"># Multiple R-squared:  0.006318,  Adjusted R-squared:  0.001951 </span></span>
+<span id="cb26-26"><a href="#cb26-26" aria-hidden="true" tabindex="-1"></a><span class="co"># F-statistic: 1.447 on 2 and 455 DF,  p-value: 0.2365</span></span>
+<span id="cb26-27"><a href="#cb26-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-28"><a href="#cb26-28" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb26-29"><a href="#cb26-29" aria-hidden="true" tabindex="-1"></a><span class="co"># terminos solicitados</span></span>
+<span id="cb26-30"><a href="#cb26-30" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb26-31"><a href="#cb26-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-32"><a href="#cb26-32" aria-hidden="true" tabindex="-1"></a>b1 <span class="ot">&lt;-</span> <span class="fl">11.3077</span> <span class="co"># intercepto (dummie grupo_a)</span></span>
+<span id="cb26-33"><a href="#cb26-33" aria-hidden="true" tabindex="-1"></a>b2 <span class="ot">&lt;-</span> <span class="fl">0.7037</span>  <span class="co"># pendiente dummie grupo_b</span></span>
+<span id="cb26-34"><a href="#cb26-34" aria-hidden="true" tabindex="-1"></a>b3 <span class="ot">&lt;-</span> <span class="fl">1.2713</span>  <span class="co"># pendiente dummie grupo_c</span></span>
+<span id="cb26-35"><a href="#cb26-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-36"><a href="#cb26-36" aria-hidden="true" tabindex="-1"></a>sigma <span class="ot">&lt;-</span> <span class="fl">6.257</span></span>
+<span id="cb26-37"><a href="#cb26-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-38"><a href="#cb26-38" aria-hidden="true" tabindex="-1"></a>df1 <span class="ot">&lt;-</span> <span class="dv">2</span></span>
+<span id="cb26-39"><a href="#cb26-39" aria-hidden="true" tabindex="-1"></a>df2 <span class="ot">&lt;-</span> <span class="dv">455</span></span>
+<span id="cb26-40"><a href="#cb26-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-41"><a href="#cb26-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-42"><a href="#cb26-42" aria-hidden="true" tabindex="-1"></a>media_a <span class="ot">&lt;-</span> b1</span>
+<span id="cb26-43"><a href="#cb26-43" aria-hidden="true" tabindex="-1"></a>media_b <span class="ot">&lt;-</span> b1 <span class="sc">+</span> b2</span>
+<span id="cb26-44"><a href="#cb26-44" aria-hidden="true" tabindex="-1"></a>media_c <span class="ot">&lt;-</span> b1 <span class="sc">+</span> b3</span>
+<span id="cb26-45"><a href="#cb26-45" aria-hidden="true" tabindex="-1"></a>dev_res <span class="ot">&lt;-</span> sigma</span>
+<span id="cb26-46"><a href="#cb26-46" aria-hidden="true" tabindex="-1"></a>num_obs <span class="ot">&lt;-</span> df1 <span class="sc">+</span> df2 <span class="sc">+</span> <span class="dv">1</span></span>
+<span id="cb26-47"><a href="#cb26-47" aria-hidden="true" tabindex="-1"></a>f_stat  <span class="ot">&lt;-</span> <span class="fl">1.447</span></span>
+<span id="cb26-48"><a href="#cb26-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-49"><a href="#cb26-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-50"><a href="#cb26-50" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb26-51"><a href="#cb26-51" aria-hidden="true" tabindex="-1"></a><span class="co"># evidencias de que los resultados son correctos</span></span>
+<span id="cb26-52"><a href="#cb26-52" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb26-53"><a href="#cb26-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-54"><a href="#cb26-54" aria-hidden="true" tabindex="-1"></a>data_model <span class="sc">%&gt;%</span></span>
+<span id="cb26-55"><a href="#cb26-55" aria-hidden="true" tabindex="-1"></a>dplyr<span class="sc">::</span><span class="fu">select</span>(dep, grupo_b, grupo_c) <span class="sc">%&gt;%</span></span>
+<span id="cb26-56"><a href="#cb26-56" aria-hidden="true" tabindex="-1"></a><span class="fu">na.omit</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb26-57"><a href="#cb26-57" aria-hidden="true" tabindex="-1"></a><span class="fu">nrow</span>()</span></code></pre></div>
+<pre><code>## [1] 458</code></pre>
+<div class="sourceCode" id="cb28"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a><span class="co"># tabla de resultados solicitados</span></span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a><span class="fu">data.frame</span>(</span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a><span class="at">stat  =</span> <span class="fu">c</span>(<span class="st">&#39;media_a&#39;</span>,<span class="st">&#39;media_b&#39;</span>, <span class="st">&#39;media_c&#39;</span>, <span class="st">&#39;dev_res&#39;</span>,<span class="st">&#39;num_obs&#39;</span>,<span class="st">&#39;f_stat&#39;</span>),</span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a><span class="at">value =</span> <span class="fu">c</span>(media_a,media_b, media_c, dev_res, num_obs, f_stat)</span>
+<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a>) <span class="sc">%&gt;%</span></span>
+<span id="cb28-9"><a href="#cb28-9" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(., <span class="at">digits =</span> <span class="dv">2</span>)</span></code></pre></div>
+<table>
+<thead>
+<tr class="header">
+<th align="left">stat</th>
+<th align="right">value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">media_a</td>
+<td align="right">11.31</td>
+</tr>
+<tr class="even">
+<td align="left">media_b</td>
+<td align="right">12.01</td>
+</tr>
+<tr class="odd">
+<td align="left">media_c</td>
+<td align="right">12.58</td>
+</tr>
+<tr class="even">
+<td align="left">dev_res</td>
+<td align="right">6.26</td>
+</tr>
+<tr class="odd">
+<td align="left">num_obs</td>
+<td align="right">458.00</td>
+</tr>
+<tr class="even">
+<td align="left">f_stat</td>
+<td align="right">1.45</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p><strong>Respuesta</strong></p>
+<ul>
+<li>Media del grupo A: 11.3077</li>
+<li>Media del grupo B: 12.0114</li>
+<li>Media del grupo C: 12.579</li>
+<li>Desviación estándar de los residuos: 6.257</li>
+<li>Numero de casos: 458</li>
+<li>Estadígrafo F: 1.447</li>
+</ul></li>
+</ul>
+<h1 id="ejercicio-8-hipótesis-estadisticas">Ejercicio 8. Hipótesis
+estadisticas</h1>
+<p>Hagamos un ejercicio de fomrulacion de hipotesis y de descripción de
+resultados. Vamos a formular la hipotesis nula que estaría evaluando la
+regresion simple, en que incluimos a las variables indicadoras de los
+grupos b y c.</p>
+<p>Vamos a: - Formular la hipotesis nula - Formular la hipotesis
+alternativa - Vamos a reportar al estadistico respectivo para indicar si
+la hipotesis nula es adecuada al caso.</p>
+<ul>
+<li><strong>Respuesta</strong>
+<ul>
+<li><strong>Hipotesis nula:</strong> La hipotesis nula puede ser
+formulada como: la diferencia de medias entre los grupos a, b, y c, es
+igual a cero en cada par de comparación.</li>
+<li><strong>Hipotesis alternativa:</strong> La hipotesis alternativa
+para la comparación de medias de los puntajes de depresión, es que es
+que al menos una de las diferencia de medias entre los grupos a, b, y c,
+es diferente de cero.</li>
+<li><strong>Decisión (con justificación)</strong>: Considerando los
+resultados encontrados, no tenemos evidencias para indicar que hay
+diferencias entre las medias comparadas (F(2,455) = 1.447, p =
+.24).</li>
+</ul></li>
+</ul>
+<h1 id="ejercicio-9-diferencias-de-medias">Ejercicio 9. Diferencias de
+medias</h1>
+<p>Considerando la respuesta a la pregunta anterior, cuando corresponda
+indique si hay evidencia estadisticamente significativa de una
+diferencia entre (i) el grupo A y el grupo B y (ii) entre el grupo A y
+grupo C. Indique en que partes del resultado del análisis se basa para
+responder.</p>
+<ul>
+<li><p><strong>Respuesta</strong></p></li>
+<li><p>No se observan diferencias significativas entre los pares de
+comparacion A vs B, y A vs C.</p></li>
+<li><p>El coeficiente, que compara a A vs B es 0.7037, y presenta un t
+de tamaño pequeño (t = 0.972, p = .33)</p></li>
+<li><p>El coeficiente, que compara a A vs C es 1.2713, y presenta un t
+de tamaño pequeño (t = 1.701, p = .09)</p></li>
+</ul>
+<h1 id="ejercicio-10-más-diferencias-de-medias">Ejercicio 10. Más
+diferencias de medias</h1>
+<p>Si quisiera obtener directamente en el resultado de la regresión las
+comparaciones (i) entre el grupo A y C y (ii) entre el grupo B y C, ¿Que
+tendríamos que cambiar en los predictores del modelo de regresión?</p>
+<div class="sourceCode" id="cb29"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="fu">lm</span>(dep <span class="sc">~</span> <span class="dv">1</span> <span class="sc">+</span> grupo_a <span class="sc">+</span> grupo_b, <span class="at">data =</span> data_model) <span class="sc">%&gt;%</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>()</span></code></pre></div>
+<pre><code>## 
+## Call:
+## lm(formula = dep ~ 1 + grupo_a + grupo_b, data = data_model)
+## 
+## Residuals:
+##      Min       1Q   Median       3Q      Max 
+## -12.0114  -4.5789  -0.5789   3.6923  21.6923 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)  12.5789     0.5075  24.785   &lt;2e-16 ***
+## grupo_a      -1.2713     0.7475  -1.701   0.0897 .  
+## grupo_b      -0.5676     0.6929  -0.819   0.4131    
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 6.257 on 455 degrees of freedom
+##   (42 observations deleted due to missingness)
+## Multiple R-squared:  0.006318,   Adjusted R-squared:  0.001951 
+## F-statistic: 1.447 on 2 and 455 DF,  p-value: 0.2365</code></pre>
+<div class="sourceCode" id="cb31"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Nota: se deja como intercepto al grupo c</span></span></code></pre></div>
+<ul>
+<li><p><strong>Respuesta</strong></p></li>
+<li><p>Como los modelos de regresion de 3 grupos, requieren de un punto
+de referencia, nos basta con dejar la media del grupo c como intercepto.
+Con este cambio, los coeficientes generados por el modelo, son las
+diferencias respectivas de cada grupo respecto a la media del grupo
+c. Un modelo de regresion que permite obtener inferencias sobre las
+diferencias de media de interes es:</p></li>
+</ul>
+<!-- -->
+
+<pre><code>lm(dep ~ 1 + grupo_a + grupo_b, data = data_model) %&gt;%
+summary()</code></pre>
+<h1 id="ejercicio-11-anova">Ejercicio 11. ANOVA</h1>
+<p>Realize un ANOVA evaluando las diferencias de medias entre los grupos
+A, B y C respecto de la variable <code>dep</code> y genere el análisis
+de comparaciones múltiples de Tukey. Reporte si el análisis identifica
+diferencias estadisticamente significativas entre los grupos B y C.</p>
+<div class="sourceCode" id="cb33"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="fu">aov</span>(dep <span class="sc">~</span> edad_cat, <span class="at">data =</span> data_model) <span class="sc">%&gt;%</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>()</span></code></pre></div>
+<pre><code>##              Df Sum Sq Mean Sq F value Pr(&gt;F)
+## edad_cat      2    113   56.64   1.447  0.236
+## Residuals   455  17815   39.15               
+## 42 observations deleted due to missingness</code></pre>
+<div class="sourceCode" id="cb35"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>anova_model <span class="ot">&lt;-</span> <span class="fu">aov</span>(dep <span class="sc">~</span> edad_cat, <span class="at">data =</span> data_model)</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a><span class="fu">TukeyHSD</span>(<span class="at">x=</span>anova_model, <span class="st">&#39;edad_cat&#39;</span>, <span class="at">conf.level=</span><span class="fl">0.95</span>)</span></code></pre></div>
+<pre><code>##   Tukey multiple comparisons of means
+##     95% family-wise confidence level
+## 
+## Fit: aov(formula = dep ~ edad_cat, data = data_model)
+## 
+## $edad_cat
+##                      diff        lwr      upr     p adj
+## Grupo B-Grupo A 0.7036713 -0.9978776 2.405220 0.5946930
+## Grupo C-Grupo A 1.2712551 -0.4864371 3.028947 0.2060333
+## Grupo C-Grupo B 0.5675837 -1.0616017 2.196769 0.6913116</code></pre>
+<ul>
+<li><strong>Respuesta</strong>
+<ul>
+<li>La comparación de medias para el grupo B y C, empleando el
+procedimiento de Tuckey (HSD) no encuentra diferencias significativas
+(HSD = 0.20, CI95%[-1.10, 1.50], p = .93)</li>
+</ul></li>
+</ul>
+<h1 id="bonus-ejercicio-12-regresión-múltiple-para-comparar-los-promedios-de-cada-grupo-contra-el-promedio-general">BONUS:
+Ejercicio 12. Regresión múltiple para comparar los promedios de cada
+grupo contra el promedio general</h1>
+<p>En en este ejericio, vamos a ilustrar como emplear a una regresion,
+para realizar una prueba t de una sola muestra. En diferentes clases,
+hemos indicado, como regresion es una herramienta muy versatil. Este es
+un ejemplo de esta versatilidad.</p>
+<p>Vamos a crear un modelo de regresión, que nos sirve para comparar si
+la pertenencia a alguna de los tipo de escuela, publica, subvencionada,
+y particular se diferencia de forma relevante de la media total de los
+datos.</p>
+<p>Para estos propositos, vamos a crear un modelo de regresion
+donde:</p>
+<ul>
+<li>Las pruebas de hipótesis de cada media estimada este evaluando si
+esta es distinta del promedio global (esto es basicamente una prueba t
+de una sola muestra).</li>
+<li>El modelo ajustado nos va a peritir estimar las distancias de las
+medias respecto al promedio global de forma simultánea.</li>
+</ul>
+<div class="sourceCode" id="cb37"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a><span class="co"># informacion de la variable adm</span></span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Dependencia del establecimiento (3 grupos)</span></span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a><span class="co"># [1] Municipal y AD</span></span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a><span class="co"># [2] Subvencionado</span></span>
+<span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a><span class="co"># [3] Particular</span></span>
+<span id="cb37-10"><a href="#cb37-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-11"><a href="#cb37-11" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb37-12"><a href="#cb37-12" aria-hidden="true" tabindex="-1"></a><span class="co"># media de los datos</span></span>
+<span id="cb37-13"><a href="#cb37-13" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb37-14"><a href="#cb37-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-15"><a href="#cb37-15" aria-hidden="true" tabindex="-1"></a>dep_center <span class="ot">&lt;-</span> <span class="fu">mean</span>(data_model<span class="sc">$</span>dep, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb37-16"><a href="#cb37-16" aria-hidden="true" tabindex="-1"></a>dep_center</span></code></pre></div>
+<pre><code>## [1] 12</code></pre>
+<div class="sourceCode" id="cb39"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a><span class="co"># regresion sobre datos centrados</span></span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-5"><a href="#cb39-5" aria-hidden="true" tabindex="-1"></a><span class="fu">lm</span>((dep<span class="sc">-</span>dep_center) <span class="sc">~</span> <span class="sc">-</span><span class="dv">1</span> <span class="sc">+</span> <span class="fu">as.factor</span>(adm), <span class="at">data =</span> data_model) <span class="sc">%&gt;%</span></span>
+<span id="cb39-6"><a href="#cb39-6" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>()</span></code></pre></div>
+<pre><code>## 
+## Call:
+## lm(formula = (dep - dep_center) ~ -1 + as.factor(adm), data = data_model)
+## 
+## Residuals:
+##      Min       1Q   Median       3Q      Max 
+## -11.7178  -4.7178  -0.7178   3.7755  21.7755 
+## 
+## Coefficients:
+##                 Estimate Std. Error t value Pr(&gt;|t|)
+## as.factor(adm)1  -0.2822     0.4413  -0.639    0.523
+## as.factor(adm)2   0.2245     0.4007   0.560    0.576
+## as.factor(adm)3   0.1818     1.8911   0.096    0.923
+## 
+## Residual standard error: 6.272 on 455 degrees of freedom
+##   (42 observations deleted due to missingness)
+## Multiple R-squared:  0.001606,   Adjusted R-squared:  -0.004977 
+## F-statistic: 0.244 on 3 and 455 DF,  p-value: 0.8656</code></pre>
+<div class="sourceCode" id="cb41"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a><span class="co"># aprovechando la regresion para obtener las medias</span></span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-5"><a href="#cb41-5" aria-hidden="true" tabindex="-1"></a><span class="fu">lm</span>((dep<span class="sc">-</span>dep_center) <span class="sc">~</span> <span class="sc">-</span><span class="dv">1</span> <span class="sc">+</span> <span class="fu">as.factor</span>(adm), <span class="at">data =</span> data_model) <span class="sc">%&gt;%</span></span>
+<span id="cb41-6"><a href="#cb41-6" aria-hidden="true" tabindex="-1"></a>broom<span class="sc">::</span><span class="fu">tidy</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb41-7"><a href="#cb41-7" aria-hidden="true" tabindex="-1"></a><span class="fu">mutate</span>(<span class="at">dep_mean =</span> estimate <span class="sc">+</span> dep_center) <span class="sc">%&gt;%</span></span>
+<span id="cb41-8"><a href="#cb41-8" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(., <span class="at">digits =</span> <span class="dv">2</span>)</span></code></pre></div>
+<table>
+<thead>
+<tr class="header">
+<th align="left">term</th>
+<th align="right">estimate</th>
+<th align="right">std.error</th>
+<th align="right">statistic</th>
+<th align="right">p.value</th>
+<th align="right">dep_mean</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">as.factor(adm)1</td>
+<td align="right">-0.28</td>
+<td align="right">0.44</td>
+<td align="right">-0.64</td>
+<td align="right">0.52</td>
+<td align="right">11.72</td>
+</tr>
+<tr class="even">
+<td align="left">as.factor(adm)2</td>
+<td align="right">0.22</td>
+<td align="right">0.40</td>
+<td align="right">0.56</td>
+<td align="right">0.58</td>
+<td align="right">12.22</td>
+</tr>
+<tr class="odd">
+<td align="left">as.factor(adm)3</td>
+<td align="right">0.18</td>
+<td align="right">1.89</td>
+<td align="right">0.10</td>
+<td align="right">0.92</td>
+<td align="right">12.18</td>
+</tr>
+</tbody>
+</table>
+<div class="sourceCode" id="cb42"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a><span class="co"># demostracion 1: medias de los grupos</span></span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-5"><a href="#cb42-5" aria-hidden="true" tabindex="-1"></a>data_model <span class="sc">%&gt;%</span></span>
+<span id="cb42-6"><a href="#cb42-6" aria-hidden="true" tabindex="-1"></a><span class="fu">group_by</span>(adm) <span class="sc">%&gt;%</span></span>
+<span id="cb42-7"><a href="#cb42-7" aria-hidden="true" tabindex="-1"></a><span class="fu">summarize</span>(</span>
+<span id="cb42-8"><a href="#cb42-8" aria-hidden="true" tabindex="-1"></a><span class="at">mean_dep =</span> <span class="fu">mean</span>(dep, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb42-9"><a href="#cb42-9" aria-hidden="true" tabindex="-1"></a>) <span class="sc">%&gt;%</span></span>
+<span id="cb42-10"><a href="#cb42-10" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(., <span class="at">digits =</span> <span class="dv">2</span>)</span></code></pre></div>
+<table>
+<thead>
+<tr class="header">
+<th align="right">adm</th>
+<th align="right">mean_dep</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">1</td>
+<td align="right">11.72</td>
+</tr>
+<tr class="even">
+<td align="right">2</td>
+<td align="right">12.22</td>
+</tr>
+<tr class="odd">
+<td align="right">3</td>
+<td align="right">12.18</td>
+</tr>
+</tbody>
+</table>
+<div class="sourceCode" id="cb43"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a><span class="co"># demostracion 2: prueba t de una sola muestra</span></span>
+<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a><span class="co"># -----------------------------------------------</span></span>
+<span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-5"><a href="#cb43-5" aria-hidden="true" tabindex="-1"></a>dep_adm_1 <span class="ot">&lt;-</span>  data_model <span class="sc">%&gt;%</span></span>
+<span id="cb43-6"><a href="#cb43-6" aria-hidden="true" tabindex="-1"></a>              dplyr<span class="sc">::</span><span class="fu">filter</span>(adm <span class="sc">==</span> <span class="dv">1</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb43-7"><a href="#cb43-7" aria-hidden="true" tabindex="-1"></a>              dplyr<span class="sc">::</span><span class="fu">select</span>(dep)</span>
+<span id="cb43-8"><a href="#cb43-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-9"><a href="#cb43-9" aria-hidden="true" tabindex="-1"></a><span class="fu">t.test</span>(dep_adm_1, <span class="at">mu =</span> dep_center, <span class="at">alternative =</span> <span class="st">&quot;two.sided&quot;</span>)</span></code></pre></div>
+<pre><code>## 
+##  One Sample t-test
+## 
+## data:  dep_adm_1
+## t = -0.63558, df = 201, p-value = 0.5258
+## alternative hypothesis: true mean is not equal to 12
+## 95 percent confidence interval:
+##  10.84239 12.59325
+## sample estimates:
+## mean of x 
+##  11.71782</code></pre>
+<div class="sourceCode" id="cb45"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>dep_adm_2 <span class="ot">&lt;-</span>  data_model <span class="sc">%&gt;%</span></span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a>              dplyr<span class="sc">::</span><span class="fu">filter</span>(adm <span class="sc">==</span> <span class="dv">2</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a>              dplyr<span class="sc">::</span><span class="fu">select</span>(dep)</span>
+<span id="cb45-4"><a href="#cb45-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-5"><a href="#cb45-5" aria-hidden="true" tabindex="-1"></a><span class="fu">t.test</span>(dep_adm_2, <span class="at">mu =</span> dep_center, <span class="at">alternative =</span> <span class="st">&quot;two.sided&quot;</span>)</span></code></pre></div>
+<pre><code>## 
+##  One Sample t-test
+## 
+## data:  dep_adm_2
+## t = 0.56389, df = 244, p-value = 0.5733
+## alternative hypothesis: true mean is not equal to 12
+## 95 percent confidence interval:
+##  11.44032 13.00866
+## sample estimates:
+## mean of x 
+##  12.22449</code></pre>
+<div class="sourceCode" id="cb47"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a>dep_adm_3 <span class="ot">&lt;-</span>  data_model <span class="sc">%&gt;%</span></span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a>              dplyr<span class="sc">::</span><span class="fu">filter</span>(adm <span class="sc">==</span> <span class="dv">3</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb47-3"><a href="#cb47-3" aria-hidden="true" tabindex="-1"></a>              dplyr<span class="sc">::</span><span class="fu">select</span>(dep)</span>
+<span id="cb47-4"><a href="#cb47-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb47-5"><a href="#cb47-5" aria-hidden="true" tabindex="-1"></a><span class="fu">t.test</span>(dep_adm_3, <span class="at">mu =</span> dep_center, <span class="at">alternative =</span> <span class="st">&quot;two.sided&quot;</span>)</span></code></pre></div>
+<pre><code>## 
+##  One Sample t-test
+## 
+## data:  dep_adm_3
+## t = 0.092868, df = 10, p-value = 0.9278
+## alternative hypothesis: true mean is not equal to 12
+## 95 percent confidence interval:
+##   7.819524 16.544112
+## sample estimates:
+## mean of x 
+##  12.18182</code></pre>
+
+</body>
+</html>
